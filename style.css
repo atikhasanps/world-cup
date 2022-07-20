@@ -1,0 +1,98 @@
+
+/*------ ----header style -------*/
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center; 
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 531px 581px;
+    grid-gap: 24px;
+    justify-content: center;
+    align-items: center;  
+    background-color: #161616;
+    width: 1321px;
+    height: 646px;
+    border-radius: 20px;
+    margin-top: 64px;
+    margin-bottom: 116px;
+}
+.banner-info{
+    height: 424px;
+    
+}
+.banner-info h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+.banner-info p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.link-button{
+    color: white;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.icon{
+    padding-left: 10px;
+}
+.banner-image img{
+     height: 613px;
+}
+
+/*---------- mainpart style ----- */
+main{
+    justify-content: center;
+}
+
+.mainpart{
+    display: grid;
+    grid-template-columns: 312px auto;
+    justify-content: center;
+    grid-gap: 24px;
+}
+.blog-info{
+  background-color:#161616 ;  
+  height: 312px;
+  width: 312px;
+  align-items: center;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+
+.blog-info div button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 16px 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+.live-game{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} 
+.live-game div{
+    width: 312px;
+}
