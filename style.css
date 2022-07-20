@@ -2,6 +2,8 @@
 /*------ ----header style -------*/
 body{
     margin: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 header{
     display: flex;
@@ -92,7 +94,73 @@ main{
 .live-game{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 24px;
 } 
 .live-game div{
     width: 312px;
+    
+}
+.blog{
+    border: 1px solid rgb(236, 229, 229);
+    border-radius: 15px;
+}
+.live-game h3{
+    border: 1px solid black;
+    width: 100px;
+    font-weight: 500;
+   font-size: 16px;
+    padding-left: 24px;
+}   
+.live-game h2{
+    font-weight: 600;
+font-size: 18px;
+}
+.live-game p{
+    font-weight: 400;
+}
+.details{
+    padding: 24px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.fa-solid{
+    padding-right: 10px;
+}
+.icon{
+    padding-right: 30px;
+}
+
+/*------- footer style----------- */
+footer{
+    padding-top: 100px;
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding-top: 100px;
+    height: 244px;
+}
+.footer h1{
+    color: white;
+}
+.nav{
+    text-align: center;
+}
+.nav ul, .social-icon ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    padding-right: 30px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+.social-icon ul li{
+     padding-right: 25px;
+     color: white;
 }
