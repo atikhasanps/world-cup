@@ -85,15 +85,21 @@ main{
   border-radius: 10px;
 }
 
-
-.blog-info div button{
+.blog-info div{
+    margin-top: 20px;
+}
+.blog-info div a{
      background-color: rgb(255, 255, 255);
     color: black;
     border: none;
-     padding: 16px 25px;
-     margin-bottom: 20px; 
+     padding: 10px 25px;
+     /* margin-bottom: 20px;  */
     font-size: 20px;
     border-radius: 10px;
+    text-decoration: none;
+}
+.blog-info a{
+    /* margin-bottom: 20px; */
 }
 .blog-info div .button-group{
     padding-right: 57px;
@@ -179,6 +185,21 @@ footer{
      padding-right: 25px;
      color: white;
 }
+
+/*----------------- website2 style------------ */
+
+.flag{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 53px;
+}
+
+.live-game{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 
 /* -------------------Responsive----------- */
 /* -------------------Tablet devices------- */
